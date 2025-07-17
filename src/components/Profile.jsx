@@ -31,8 +31,8 @@ export default function Profile() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Image */}
         <div className="w-full md:w-1/2">
-          <img
-            src="https://placehold.co/800x600"
+        <img
+            src="/DSC00176.JPG"
             alt="Desa Damai"
             className="rounded-2xl shadow-lg w-full"
           />
@@ -53,7 +53,6 @@ export default function Profile() {
               text="Digitalisasi menjadi pintu masuk untuk memperkenalkan potensi Desa Damai ke dunia luar. Terletak di Kecamatan Watang Sidenreng, Kabupaten Sidenreng Rappang, desa ini menyimpan nilai-nilai kearifan lokal yang berpadu dengan semangat pembangunan. Keindahan alam, kerukunan masyarakat, dan berbagai inovasi desa menjadi kekuatan utama Desa Damai menuju desa cerdas dan mandiri."
               splitType="words"
               delay={10}
-              className="text-left"
             />
           </blockquote>
 
@@ -71,29 +70,29 @@ export default function Profile() {
       {/* Additional Features Section */}
       <section className="mt-20 container mx-auto px-4 py-16 bg-green-200 rounded-2xl shadow-inner">
         <ScrollFloat delay={0.1}>
-          <h2 className="text-3xl font-bold mb-10 text-green-700 text-left">
+          <h2 className="text-3xl font-bold mb-10 text-green-700 text-center">
             <SplitText text="✨ Potensi Unggulan Desa Damai" splitType="chars" delay={15} />
           </h2>
         </ScrollFloat>
 
-        <div className="overflow-x-auto pb-4">
-          <div className="flex gap-6 snap-x snap-mandatory scroll-smooth min-w-full px-1">
-            {features.map((feature, i) => (
-              <ScrollFloat key={i} delay={0.2 + i * 0.1}>
-                <div className="snap-start min-w-[280px] max-w-sm bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition flex-shrink-0 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {features.map((feature, i) => (
+            <ScrollFloat key={i} delay={0.2 + i * 0.1}>
+              <div className="h-full bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition text-left flex flex-col justify-between">
+                <div>
                   <div className="w-12 h-12 bg-green-500 text-white rounded-full flex items-center justify-center mb-4 text-xl">
                     {feature.icon}
                   </div>
 
-                  <h3 className="text-lg font-bold mb-2 text-left">
+                  <h3 className="text-lg font-bold mb-2">
                     <SplitText text={feature.title} splitType="words" delay={10} />
                   </h3>
 
                   <p className="text-gray-700 text-sm leading-relaxed">{feature.desc}</p>
                 </div>
-              </ScrollFloat>
-            ))}
-          </div>
+              </div>
+            </ScrollFloat>
+          ))}
         </div>
       </section>
     </section>

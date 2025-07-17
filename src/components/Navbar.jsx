@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav className="bg-green-900 shadow-lg fixed w-full z-10">
+    <nav className="bg-green-900 shadow-lg fixed w-full z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         
         {/* Logo + Text */}
@@ -33,6 +33,11 @@ export default function Navbar() {
             </a>
           </li>
           <li>
+            <a href="#facilities" className="text-white hover:text-green-300 transition duration-300">
+              Facilities
+            </a>
+          </li>
+          <li>
             <a href="#government" className="text-white hover:text-green-300 transition duration-300">
               Government
             </a>
@@ -40,11 +45,6 @@ export default function Navbar() {
           <li>
             <a href="#news" className="text-white hover:text-green-300 transition duration-300">
               News
-            </a>
-          </li>
-          <li>
-            <a href="#services" className="text-white hover:text-green-300 transition duration-300">
-              Services
             </a>
           </li>
           <li>

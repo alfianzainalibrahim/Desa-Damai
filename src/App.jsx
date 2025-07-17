@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Profile from './components/Profile';
 import Location from './components/Location';
 import Government from './components/Government';
+import Facilities from './components/Facilities';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -51,6 +52,9 @@ const App = () => {
       {/* Location Section */}
       <Location />
 
+      {/* Facilities Section */}
+       <Facilities />
+
       {/* Local Government Structure */}
       <Government />
 
@@ -81,21 +85,6 @@ const App = () => {
         </div>
       </section>
 
-      {/* Services for Residents */}
-      <section id="services" className="container mx-auto px-4 py-16 bg-green-200">
-        <h2 className="text-3xl font-bold mb-6 text-green-500">Services for Residents</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {servicesForResidents.map((service, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md flex items-center space-x-4 transition-transform duration-300 hover:scale-105">
-              {service.icon}
-              <div>
-                <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                <p className="text-gray-700">{service.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* Contact Information */}
       <section id="contact" className="container mx-auto px-4 py-16">

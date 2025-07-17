@@ -8,13 +8,13 @@ export default function Hero() {
   return (
     <section
       className="bg-cover bg-center h-screen relative"
-      style={{ backgroundImage: "url('/desadamai.jpg')" }}
+      style={{ backgroundImage: "url('/IMG_0942.JPG')" }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-50 z-[1]"></div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 py-32 text-center relative z-10 flex flex-col justify-center items-center h-full">
+      <div className="container mx-auto px-4 py-32 text-center relative z-[2] flex flex-col justify-center items-center h-full">
         <BlurText
           text="Welcome to Desa Damai"
           delay={100}
@@ -23,7 +23,6 @@ export default function Hero() {
           onAnimationComplete={handleAnimationComplete}
           className="text-4xl md:text-6xl font-bold text-white mb-4"
         />
-
         <p className="text-lg md:text-xl text-white">
           A peaceful and vibrant community in Sidenreng Rappang Regency.
         </p>

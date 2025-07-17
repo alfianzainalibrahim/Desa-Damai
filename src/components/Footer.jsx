@@ -67,8 +67,8 @@ export default function Footer() {
       {/* Logo Bar */}
       <div className="flex justify-center flex-wrap gap-8 mt-12 mb-4">
         <img src="/Official_Logo_of_Sidenreng_Rappang_Regency.png" alt="Logo Sidrap" className="h-20" />
-        <img src="/Logo-Resmi-Unhas.png" alt="Logo Unhas" className="h-20" />
-        <img src="/Desa Damai New Logo Rmve BG.png" alt="Logo Desa Damai" className="h-20" />
+        <img src="/footer/Logo-Resmi-Unhas.png" alt="Logo Unhas" className="h-20" />
+        <img src="/footer/Desa Damai New Logo Rmve BG.png" alt="Logo KKN-T 114 Desa Damai" className="h-20" />
       </div>
 
       {/* Copyright */}
