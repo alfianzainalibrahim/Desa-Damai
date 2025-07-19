@@ -1,5 +1,5 @@
 // src/components/Footer.jsx
-import { Phone, MessageCircle, MapPin, Instagram, ArrowUp } from 'lucide-react';
+import { Phone, MessageCircle, GraduationCap, Instagram, ArrowUp } from 'lucide-react';
 import { RiTiktokFill } from "react-icons/ri";
 
 export default function Footer() {
@@ -21,16 +21,19 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Alamat */}
+        {/* Dibuat Oleh */}
         <div>
-          <h3 className="text-xl font-bold mb-2">Alamat</h3>
+          <h3 className="text-xl font-bold mb-2">Dibuat Oleh</h3>
           <div className="h-1 w-16 bg-red-600 mb-4"></div>
           <div className="flex items-start text-gray-300">
-            <MapPin className="text-red-500 mr-3 mt-1" size={20} />
+            <GraduationCap className="text-red-500 mr-3 mt-1" size={20} />
             <p className="leading-relaxed">
-              Desa Damai, Kec. Watang<br />
-              Sidenreng, Kab. Sidenreng<br />
-              Rappang, Sulawesi Selatan
+              Website ini dibuat oleh <br />
+              <span className="font-semibold text-white">
+                Andi Muhammad Alfian Zainal Ibrahim
+              </span>,<br />
+              Mahasiswa KKN-T 114 <br />
+              Universitas Hasanuddin 2025
             </p>
           </div>
         </div>
@@ -53,7 +56,7 @@ export default function Footer() {
 
           {/* TikTok */}
           <a
-            href="https://www.tiktok.com/@kkn114desadamai?_t=ZS-8xf0MPW9ZpK&_r=1&fbclid=PAQ0xDSwLiE2lleHRuA2FlbQIxMQABp-iBdg5Zyd1fq4DARv7pGCfxzwIzS0Gz93RutKmhdpQNCDCXehtEpl3Tcf2a_aem_q0-gpFmsGNuGo1x0D6mMlQ"
+            href="https://www.tiktok.com/@kkn114desadamai?_t=ZS-8xf0MPW9ZpK&_r=1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-300 hover:text-red-400 transition duration-300"
@@ -66,9 +69,11 @@ export default function Footer() {
 
       {/* Logo Bar */}
       <div className="flex justify-center flex-wrap gap-8 mt-12 mb-4">
-        <img src="/Official_Logo_of_Sidenreng_Rappang_Regency.png" alt="Logo Sidrap" className="h-20" />
-        <img src="/footer/Logo-Resmi-Unhas.png" alt="Logo Unhas" className="h-20" />
-        <img src="/footer/Desa Damai New Logo Rmve BG.png" alt="Logo KKN-T 114 Desa Damai" className="h-20" />
+        <img src="/footer/1.png" alt="Logo UNHAS" className="h-20" />
+        <img src="/footer/2.png" alt="Logo KKN" className="h-20" />
+        <img src="/footer/3.png" alt="Logo SIDRAP" className="h-20" />
+        <img src="/footer/4.png" alt="Logo KKN-T 114 DESA DAMAI" className="h-20" />
+        <img src="/footer/5.png" alt="Logo DAMAI BERAKSI" className="h-20" />
       </div>
 
       {/* Copyright */}

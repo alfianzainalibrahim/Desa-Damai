@@ -43,6 +43,10 @@ export default function Navbar() {
             </a>
           </li>
           <li>
+            <a href="#government-services" className="text-white hover:text-green-300 transition duration-300">
+              Services</a>
+          </li>
+          <li>
             <a href="#news" className="text-white hover:text-green-300 transition duration-300">
               News
             </a>
@@ -51,6 +55,10 @@ export default function Navbar() {
             <a href="#contact" className="text-white hover:text-green-300 transition duration-300">
               Contact
             </a>
+          </li>
+          <li>
+            <a href="#kknt114" className="text-white hover:text-green-300 transition duration-300">
+              KKNT114</a>
           </li>
         </ul>
       </div>

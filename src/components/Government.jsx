@@ -31,7 +31,7 @@ export default function Government() {
   return (
     <section
       id="government"
-      className="relative bg-gradient-to-b from-green-100 via-white to-green-50 py-16 px-4 md:px-8 lg:px-16"
+      className="relative bg-gradient-to-b from-white via-green-50 to-green-100 py-16 px-4 md:px-8 lg:px-16"
     >
       {/* Section Title */}
       <h2 className="text-4xl font-bold text-green-800 text-center mb-14 drop-shadow-sm">
