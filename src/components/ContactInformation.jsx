@@ -3,7 +3,7 @@ import React from 'react';
 export default function ContactInformation() {
   return (
     <section id="contact" className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold mb-6 text-green-500">Contact Information</h2>
+      <h2 className="text-3xl font-bold mb-6 text-green-800 drop-shadow-sm">Contact Information</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         
         {/* Informasi Lokasi */}
@@ -25,9 +25,9 @@ export default function ContactInformation() {
         {/* Kontak */}
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-xl font-bold mb-4 text-green-600">Kontak</h3>
-          <p className="text-gray-700 mb-2"><strong>Telepon:</strong> +62 812 3456 7890</p>
-          <p className="text-gray-700 mb-2"><strong>Email:</strong> desadami@gmail.com</p>
-          <p className="text-gray-700 mb-2"><strong>Instagram:</strong> <a href="https://instagram.com/kkndesadamai2025" className="text-green-600 hover:underline" target="_blank" rel="noopener noreferrer">@kkndesadamai2025</a></p>
+          <p className="text-gray-700 mb-2"><strong>Telepon:</strong> +62 813-5487-9799</p>
+          <p className="text-gray-700 mb-2"><strong>Email:</strong> desadamai@gmail.com</p>
+          <p className="text-gray-700 mb-2"><strong>Instagram:</strong> <a href="https://www.instagram.com/desadamaisidrap/?utm_source=ig_web_button_share_sheet" className="text-green-600 hover:underline" target="_blank" rel="noopener noreferrer">@desadamaisidrap</a></p>
           <p className="text-gray-700"><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61556838180896" className="text-green-600 hover:underline" target="_blank" rel="noopener noreferrer">Pemerintah Desadamai</a></p>
         </div>
 

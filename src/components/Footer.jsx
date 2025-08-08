@@ -13,11 +13,11 @@ export default function Footer() {
           <div className="h-1 w-16 bg-red-600 mb-4"></div>
           <div className="flex items-center mb-3 text-gray-300">
             <Phone className="text-red-500 mr-3" size={20} />
-            <span>08xxxxxxxxxx</span>
+            <span>+62 813-5487-9799</span>
           </div>
           <div className="flex items-center text-gray-300">
             <MessageCircle className="text-red-500 mr-3" size={20} />
-            <span>08xxxxxxxxxx</span>
+            <span>+62 813-5487-9799</span>
           </div>
         </div>
 

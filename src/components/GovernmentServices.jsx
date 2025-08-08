@@ -21,7 +21,7 @@ export default function GovernmentServices() {
       name: "WhatsApp Desa Damai",
       description: "Hubungi kami melalui WhatsApp.",
       icon: <FaWhatsapp className="w-6 h-6 text-white" />,
-      url: "https://wa.me/1234567890",
+      url: "https://wa.me/081354879799",
       whatsapp: true,
     },
   ];
